@@ -10,6 +10,7 @@ html {
 
 body {
   background-color: var(--body-bg-color);
+  color: var(--text-color);
   font-family: Poppins, sans-serif;
   overflow: hidden;
 }
@@ -39,6 +40,14 @@ nav img {
   cursor: pointer;
 }
 
+.dashboard-container {
+  position: absolute;
+  top: 22px;
+  left: 270px;
+  font-size: 2.5rem;
+  font-weight: 500 ;
+}
+
 .iconic-text span {
   font-size: 1.5rem;
   font-weight: 400;
@@ -58,7 +67,35 @@ nav img {
   background-color: var(--light-green);
 }
 
+.footer  {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 250px;
+  position: fixed;
+  bottom: 0;
+  background-color: var(--light-green);
+  padding: 10px 4px;
+}
 
+.footer-img img {
+  width: 45px;
+  height: 45px;
+  border-radius: 12px;
+  object-fit: cover;
+}
 
+.footer-text {
+  line-height: 1.3;
+  margin-right: 30px;
+}
+
+.footer-text > p:first-child {
+  font-size: 1.5rem;
+}
+
+.footer-text > p:last-child {
+  font-size: 1.2rem;
+}
 
 
