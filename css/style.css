@@ -25,6 +25,8 @@ body {
 
 section {
   max-width: 250px;
+  min-width: 78px;
+  width: 60%;
   height: 100vh;
   background-color: var(--green);
 }
@@ -38,14 +40,6 @@ nav {
 
 nav img {
   cursor: pointer;
-}
-
-.dashboard-container {
-  position: absolute;
-  top: 22px;
-  left: 270px;
-  font-size: 2.5rem;
-  font-weight: 500 ;
 }
 
 .iconic-text span {
@@ -69,13 +63,14 @@ nav img {
 
 .footer  {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  width: 250px;
+  max-width: 250px;
+  width: 60%;
   position: fixed;
   bottom: 0;
   background-color: var(--light-green);
-  padding: 10px 4px;
+  padding: 10px 8px;
 }
 
 .footer-img img {
@@ -87,7 +82,7 @@ nav img {
 
 .footer-text {
   line-height: 1.3;
-  margin-right: 30px;
+  margin-right: 40px;
 }
 
 .footer-text > p:first-child {
@@ -98,4 +93,12 @@ nav img {
   font-size: 1.2rem;
 }
 
+@media(max-width: 400px) {
+  html {
+    font-size: 50%;
+  }
+  .footer-text {
+    margin: 0 auto;
+  }
+}
 
