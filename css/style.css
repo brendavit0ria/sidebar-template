@@ -25,10 +25,10 @@ body {
 
 section {
   max-width: 250px;
-  min-width: 78px;
-  width: 60%;
   height: 100vh;
   background-color: var(--green);
+  transition: all .5s;
+  position: relative;
 }
 
 nav {
@@ -63,11 +63,10 @@ nav img {
 
 .footer  {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  max-width: 250px;
-  width: 60%;
-  position: fixed;
+  width: 100%;
+  position: absolute;
   bottom: 0;
   background-color: var(--light-green);
   padding: 10px 8px;
@@ -77,16 +76,18 @@ nav img {
   width: 45px;
   height: 45px;
   border-radius: 12px;
+  margin-right: 4px;
   object-fit: cover;
 }
 
 .footer-text {
   line-height: 1.3;
-  margin-right: 40px;
+  margin-right: 35px;
 }
 
 .footer-text > p:first-child {
   font-size: 1.5rem;
+  width: 100px;
 }
 
 .footer-text > p:last-child {
@@ -97,8 +98,12 @@ nav img {
   html {
     font-size: 50%;
   }
-  .footer-text {
-    margin: 0 auto;
-  }
 }
 
+section.active-sidebar {
+  max-width: 78px;
+}
+
+.active-sidebar .item-description {
+  display: none; 
+}

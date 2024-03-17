@@ -6,4 +6,3 @@ function clickMenu() {
 }
 
 menu.addEventListener('click', clickMenu);
-
