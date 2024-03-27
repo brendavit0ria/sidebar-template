@@ -7,7 +7,7 @@ O projeto visa criar uma sidebar simples, facilitando a navegação e o acesso �
 <br>
 
 <p align="center">
-  <img alt="sidebar" src="https://file.notion.so/f/f/08f749ff-d06d-49a8-a488-9846e081b224/36165949-0a72-4b11-8075-904fbf6021f3/Animao.gif?id=cc482a76-c8aa-412c-bf86-e8049fc208bd&table=block&spaceId=08f749ff-d06d-49a8-a488-9846e081b224&expirationTimestamp=1710777600000&signature=sfSEdWux3fqYbDr6FSzNFZpSwSHal-oOXfCxPpnefgQ" width="380" height="220">
+  <img alt="sidebar" src="https://file.notion.so/f/f/08f749ff-d06d-49a8-a488-9846e081b224/36165949-0a72-4b11-8075-904fbf6021f3/Animao.gif?id=cc482a76-c8aa-412c-bf86-e8049fc208bd&table=block&spaceId=08f749ff-d06d-49a8-a488-9846e081b224&expirationTimestamp=1711663200000&signature=mYs7f2KpO0HYOvenvSNZjTR1I44FbT0AN9cfakEDsXs" width="380" height="220">
 </p>
 
 ## Tecnologias
